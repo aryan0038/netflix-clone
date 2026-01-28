@@ -75,7 +75,7 @@ data_db = [
         "rating": 9.1,
         "content_type": "series"
     },
-     {
+    {
         "title": "The Mandalorian",
         "genre": "Sci-Fi",
         "image": "https://image.tmdb.org/t/p/original/eU1i6eHXlzMOlEq0ku1Rzq7Y4wA.jpg",
@@ -92,13 +92,47 @@ data_db = [
         "trailer": "https://www.youtube.com/watch?v=gCcx85zbxz4",
         "rating": 9.1,
         "content_type": "movie"
-    }
+    },
+
+    # --- ANIME & ANIMATION ---
+    {"title": "Spider-Man: Into the Spider-Verse", "genre": "Animation", "image": "https://image.tmdb.org/t/p/original/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg", "trailer": "https://www.youtube.com/watch?v=g4Hbz2jLxvQ", "rating": 8.4, "content_type": "movie"},
+    {"title": "Your Name", "genre": "Animation", "image": "https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg", "trailer": "https://www.youtube.com/watch?v=s0wTdCQoc2k", "rating": 8.5, "content_type": "movie"},
+    {"title": "Spirited Away", "genre": "Animation", "image": "https://image.tmdb.org/t/p/original/39wmItIWsg5sZqryyJqOqFtSJqa.jpg", "trailer": "https://www.youtube.com/watch?v=ByXuk9QqQkk", "rating": 8.5, "content_type": "movie"},
+    {"title": "Demon Slayer", "genre": "Animation", "image": "https://image.tmdb.org/t/p/original/xUfRZu2mi8jH6SzQEYdB9AmCNFi.jpg", "trailer": "https://www.youtube.com/watch?v=VQGCKyvzIM4", "rating": 8.7, "content_type": "series"},
+    {"title": "Attack on Titan", "genre": "Animation", "image": "https://image.tmdb.org/t/p/original/hTP1DtLGFamjfu8WqjnuQdPuy61.jpg", "trailer": "https://www.youtube.com/watch?v=MGRm4IzK1SQ", "rating": 8.9, "content_type": "series"},
+
+    # --- HORROR & THRILLER ---
+    {"title": "It", "genre": "Horror", "image": "https://image.tmdb.org/t/p/original/9E2y5Q7WlCVNEhP5GiVTJhEhx1o.jpg", "trailer": "https://www.youtube.com/watch?v=FnCdOQsX5kc", "rating": 7.3, "content_type": "movie"},
+    {"title": "The Conjuring", "genre": "Horror", "image": "https://image.tmdb.org/t/p/original/wVYREutTvI2tmxr6tuFeWJqa6x.jpg", "trailer": "https://www.youtube.com/watch?v=k10ETZ41q5o", "rating": 7.5, "content_type": "movie"},
+    {"title": "A Quiet Place", "genre": "Horror", "image": "https://image.tmdb.org/t/p/original/nA7gP338mFjW66i8P0jQ3g7jQ3.jpg", "trailer": "https://www.youtube.com/watch?v=WR7cc5t7tv8", "rating": 7.4, "content_type": "movie"},
+    {"title": "Get Out", "genre": "Thriller", "image": "https://image.tmdb.org/t/p/original/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg", "trailer": "https://www.youtube.com/watch?v=DzfpyUB60YY", "rating": 7.7, "content_type": "movie"},
+    {"title": "Parasite", "genre": "Thriller", "image": "https://image.tmdb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg", "trailer": "https://www.youtube.com/watch?v=5xH0HfJHsaY", "rating": 8.5, "content_type": "movie"},
+
+    # --- COMEDY ---
+    {"title": "The Hangover", "genre": "Comedy", "image": "https://image.tmdb.org/t/p/original/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg", "trailer": "https://www.youtube.com/watch?v=tcdUhdOlz9M", "rating": 7.3, "content_type": "movie"},
+    {"title": "Superbad", "genre": "Comedy", "image": "https://image.tmdb.org/t/p/original/ek8e8txUyUwd2Bnqhw67G88h0bH.jpg", "trailer": "https://www.youtube.com/watch?v=4eaZ_48ZYog", "rating": 7.6, "content_type": "movie"},
+    {"title": "The Office", "genre": "Comedy", "image": "https://image.tmdb.org/t/p/original/qWnJzyZhyy74gJPM6eQLtXOIc2s.jpg", "trailer": "https://www.youtube.com/watch?v=LHOtME2DL4g", "rating": 8.9, "content_type": "series"},
+    {"title": "Friends", "genre": "Comedy", "image": "https://image.tmdb.org/t/p/original/f496cm9enuEsZkSPzCwnTESEK5s.jpg", "trailer": "https://www.youtube.com/watch?v=hDNNmeeJs1Q", "rating": 8.4, "content_type": "series"},
+    {"title": "Brooklyn Nine-Nine", "genre": "Comedy", "image": "https://image.tmdb.org/t/p/original/hgRMKCnNGpTwfVvJ7eQ49r99cM.jpg", "trailer": "https://www.youtube.com/watch?v=sEOuJ4z5aTc", "rating": 8.2, "content_type": "series"},
+
+    # --- CLASSICS ---
+    {"title": "The Godfather", "genre": "Crime", "image": "https://image.tmdb.org/t/p/original/3bhkrj58Vtu7enYsRolD1fZdja1.jpg", "trailer": "https://www.youtube.com/watch?v=sY1S34973zA", "rating": 8.7, "content_type": "movie"},
+    {"title": "Pulp Fiction", "genre": "Crime", "image": "https://image.tmdb.org/t/p/original/d5iIlFn5s0ImszYzBPb8JPIfbXD.jpg", "trailer": "https://www.youtube.com/watch?v=s7EdQ4FqbhY", "rating": 8.5, "content_type": "movie"},
+    {"title": "Fight Club", "genre": "Drama", "image": "https://image.tmdb.org/t/p/original/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg", "trailer": "https://www.youtube.com/watch?v=qtRKdVHc-cE", "rating": 8.4, "content_type": "movie"},
+    {"title": "Forrest Gump", "genre": "Drama", "image": "https://image.tmdb.org/t/p/original/arw2vcBveWOVZr6pxd9XTd1TdQa.jpg", "trailer": "https://www.youtube.com/watch?v=bLvqoHBptjg", "rating": 8.8, "content_type": "movie"},
+    {"title": "The Shawshank Redemption", "genre": "Drama", "image": "https://image.tmdb.org/t/p/original/q6y0Go1tsGEsmtFryDOJo3dEmqu.jpg", "trailer": "https://www.youtube.com/watch?v=6hB3S9bIaco", "rating": 8.7, "content_type": "movie"}
 ]
 
-print(f"🚀 Seeding {len(data_db)} 4K items...")
+print(f"🚀 Seeding {len(data_db)} items...")
 
 for item in data_db:
     item["id"] = None
+    
+    # --- AUTO-FIX MISSING BACKDROPS ---
+    # This prevents errors for the new movies that don't have a backdrop
+    if "backdrop" not in item:
+        item["backdrop"] = item["image"]
+        
     try:
         requests.post(API_URL, json=item)
         print(f"✅ Added: {item['title']}")

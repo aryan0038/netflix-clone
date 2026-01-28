@@ -11,7 +11,7 @@ function App() {
   const [newMovie, setNewMovie] = useState({ title: "", genre: "", image: "", trailer: "", rating: 0, content_type: "movie" })
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/movies')
+    fetch('https://netflix-backend-sujal.vercel.app/movies')
       .then(res => res.json())
       .then(data => {
         setMovies(data)
